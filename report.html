@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Clone Report — Схематизация</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #f5f5f5; padding: 24px; }
+  h1 { font-size: 22px; margin-bottom: 8px; }
+  .meta { color: #666; margin-bottom: 20px; font-size: 14px; }
+  .summary { display: flex; gap: 12px; margin-bottom: 24px; flex-wrap: wrap; }
+  .card { background: #fff; border-radius: 12px; padding: 14px 18px; box-shadow: 0 1px 4px rgba(0,0,0,0.1); min-width: 120px; }
+  .card .num { font-size: 24px; font-weight: 700; color: #1a73e8; }
+  .card .label { font-size: 11px; color: #666; margin-top: 4px; }
+  .card.warn .num { color: #ea8600; }
+  .card.err .num { color: #c5221f; }
+  table { width: 100%; background: #fff; border-radius: 12px; overflow: hidden; box-shadow: 0 1px 4px rgba(0,0,0,0.1); border-collapse: collapse; }
+  th { background: #1a73e8; color: #fff; padding: 8px 10px; font-size: 11px; text-align: left; font-weight: 600; white-space: nowrap; }
+  td { padding: 6px 10px; font-size: 12px; border-bottom: 1px solid #eee; }
+  tr:hover td { background: #f8f9fe; }
+  .detail-row td { padding: 4px 10px 8px; background: #fafafa; border-bottom: 2px solid #e0e0e0; }
+  a { color: #1a73e8; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .chip { display: inline-block; padding: 2px 8px; border-radius: 10px; font-size: 11px; margin: 2px; text-decoration: none; }
+  .chip.ok { background: #e6f4ea; color: #137333; }
+  .chip.no { background: #fce8e6; color: #c5221f; }
+  .chip.gd { background: #e6f4ea; color: #137333; }
+  .legend { margin-top: 16px; font-size: 12px; color: #888; }
+</style>
+</head>
+<body>
+<h1>📊 Clone Report</h1>
+<div class="meta">
+  Source: <a href="https://sites.google.com/view/schemata" target="_blank">https://sites.google.com/view/schemata</a><br>
+  Generated: 2026-03-09
+</div>
+
+<div class="summary">
+  <div class="card"><div class="num">34</div><div class="label">Pages discovered</div></div>
+  <div class="card"><div class="num">32</div><div class="label">SingleFile ✅</div></div>
+  <div class="card"><div class="num">34</div><div class="label">Puppeteer ✅</div></div>
+  <div class="card"><div class="num">34</div><div class="label">Final built</div></div>
+  <div class="card warn"><div class="num">90</div><div class="label">YouTube embeds</div></div>
+  <div class="card"><div class="num">0</div><div class="label">Vimeo embeds</div></div>
+  <div class="card"><div class="num">30</div><div class="label">GDrive embeds</div></div>
+  <div class="card err"><div class="num">78/90</div><div class="label">Thumbnails ✅</div></div>
+  <div class="card"><div class="num">238.7</div><div class="label">Total site MB</div></div>
+</div>
+
+<table>
+<thead>
+<tr>
+  <th>#</th>
+  <th>Page</th>
+  <th>Depth</th>
+  <th>SingleFile</th>
+  <th>Img (b64)</th>
+  <th>Puppeteer</th>
+  <th>Embeds</th>
+  <th>YouTube</th>
+  <th>Vimeo</th>
+  <th>GDrive</th>
+  <th>Thumbs</th>
+  <th>Final</th>
+  <th>View</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>1</td>
+  <td style="">Схематизация</td>
+  <td>0</td>
+  <td>❌ 0 KB</td>
+  <td>0</td>
+  <td>✅ 9 KB</td>
+  <td>0</td>
+  <td>—</td>
+  <td>—</td>
+  <td>—</td>
+  <td>—</td>
+  <td>8 KB</td>
+  <td>
+    —
+     · <a href="../_content/index.html" target="_blank">PP</a>
+     · <a href="index.html" target="_blank">Final</a>
+  </td>
+</tr>
+<tr>
+  <td>2</td>
+  <td style="">Схематизация</td>
+  <td>0</td>
+  <td>✅ 7188 KB</td>
+  <td>16</td>
+  <td>✅ 8 KB</td>
+  <td>0</td>
+  <td>—</td>
+  <td>—</td>
+  <td>—</td>
+  <td>—</td>
+  <td>7188 KB</td>
+  <td>
+    <a href="../_pages/shematizatiy.html" target="_blank">SF</a>
+     · <a href="../_content/shematizatiy.html" target="_blank">PP</a>
+     · <a href="shematizatiy.html" target="_blank">Final</a>
+  </td>
+</tr>
+<tr>
+  <td>3</td>
+  <td style="">💫 Цикл игр "Технологии мышления"</td>
+  <td>0</td>
+  <td>✅ 7402 KB</td>
+  <td>19</td>
+  <td>✅ 13 KB</td>
+  <td><b>1</b></td>
+  <td>—</td>
+  <td>—</td>
+  <td>📁 1</td>
+  <td>—</td>
+  <td>7402 KB</td>
+  <td>
+    <a href="../_pages/tikl-igr-tehnologii-mysleniy.html" target="_blank">SF</a>
+     · <a href="../_content/tikl-igr-tehnologii-mysleniy.html" target="_blank">PP</a>
+     · <a href="tikl-igr-tehnologii-mysleniy.html" target="_blank">Final</a>
+  </td>
+</tr><tr class="detail-row"><td></td><td colspan="12"><a href="https://drive.google.com/file/d/0B5zcQJxvqTNha2ZWU1ZLUGRzaU0" target="_blank" class="chip gd">📁 GDrive: 0B5zcQJxvqTN…</a></td></tr>
+<tr>
+  <td>4</td>
+  <td style="">🎬 Архив игр группы</td>
+  <td>0</td>
+  <td>✅ 9328 KB</td>
+  <td>27</td>
+  <td>✅ 60 KB</td>
+  <td><b>4</b></td>
+  <td>🎬 2</td>
+  <td>—</td>
+  <td>📁 2</td>
+  <td>✅ 2</td>
+  <td>9329 KB</td>
+  <td>
+    <a href="../_pages/arhiv-igr-gruppy.html" target="_blank">SF</a>
+     · <a href="../_content/arhiv-igr-gruppy.html" target="_blank">PP</a>
+     · <a href="arhiv-igr-gruppy.html" target="_blank">Final</a>
+  </td>
+</tr><tr class="detail-row"><td></td><td colspan="12"><a href="https://www.youtube.com/watch?v=OeMzkNn8WV0" target="_blank" class="chip ok">▶ YT: OeMzkNn8WV0</a> <a href="https://www.youtube.com/watch?v=rU1DcVjN8Rw" target="_blank" class="chip ok">▶ YT: rU1DcVjN8Rw</a><a href="https://drive.google.com/file/d/0B-WzulEleEeQa192bWF5NWt5OTg" target="_blank" class="chip gd">📁 GDrive: 0B-WzulEleEe…</a> <a href="https://drive.google.com/file/d/0B5zcQJxvqTNhUmZHSERvVjZmVzdVWG9RVTNXU1lWLVYtV0VN" target="_blank" class="chip gd">📁 GDrive: 0B5zcQJxvqTN…</a></td></tr>
+<tr>
+  <td>5</td>
+  <td style="">⌚ Семинары</td>
+  <td>0</td>
+  <td>✅ 7100 KB</td>
+  <td>16</td>
+  <td>✅ 29 KB</td>
+  <td>0</td>
+  <td>—</td>
+  <td>—</td>
+  <td>—</td>
+  <td>—</td>
+  <td>7100 KB</td>
+  <td>
+    <a href="../_pages/seminary.html" target="_blank">SF</a>
+     · <a href="../_content/seminary.html" target="_blank">PP</a>
+     · <a href="seminary.html" target="_blank">Final</a>
+  </td>
+</tr>
+<tr>
+  <td>6</td>
+  <td style="padding-left:40px">1-Конференция</td>
+  <td>1</td>
+  <td>✅ 7276 KB</td>
+  <td>16</td>
+  <td>✅ 26 KB</td>
+  <td><b>17</b></td>
+  <td>🎬 1</td>
+  <td>—</td>
+  <td>📁 16</td>
+  <td>✅ 1</td>
+  <td>7277 KB</td>
+  <td>
+    <a href="../_pages/1-konferentiy.html" target="_blank">SF</a>
+     · <a href="../_content/1-konferentiy.html" target="_blank">PP</a>
+     · <a href="1-konferentiy.html" target="_blank">Final</a>
+  </td>
+</tr><tr class="detail-row"><td></td><td colspan="12"><a href="https://www.youtube.com/watch?v=msuEf1lppKw" target="_blank" class="chip ok">▶ YT: msuEf1lppKw</a><a href="https://drive.google.com/file/d/1mjHmSrBxoVHY-NNInPZsngLzV2Ryj4Lg" target="_blank" class="chip gd">📁 GDrive: 1mjHmSrBxoVH…</a> <a href="https://drive.google.com/file/d/1sxesSXzJ8uYAa2-FIfAnsv1ehGcAeBiD" target="_blank" class="chip gd">📁 GDrive: 1sxesSXzJ8uY…</a> <a href="https://drive.google.com/file/d/14tr4VaDlBBax3uY2U7chUzgJfYIkWPvf" target="_blank" class="chip gd">📁 GDrive: 14tr4VaDlBBa…</a> <a href="https://drive.google.com/file/d/1yrWj12mtVlalTdzR5meGuzcLP2FVG7yT" target="_blank" class="chip gd">📁 GDrive: 1yrWj12mtVla…</a> <a href="https://drive.google.com/file/d/1BEMXvv4SfrpVx1X5mZlRUVNEEZmqxMeK" target="_blank" class="chip gd">📁 GDrive: 1BEMXvv4Sfrp…</a> <a href="https://drive.google.com/file/d/1hf47--E1gve6uHxn-aO0FMH3J733evz_" target="_blank" class="chip gd">📁 GDrive: 1hf47--E1gve…</a> <a href="https://drive.google.com/file/d/1r9ljPn7VPNnGqKgMBS4ua9o4q1OcqfUA" target="_blank" class="chip gd">📁 GDrive: 1r9ljPn7VPNn…</a> <a href="https://drive.google.com/file/d/1DHQozLPlEazmKvTUwGp4m40VGvbBPCYG" target="_blank" class="chip gd">📁 GDrive: 1DHQozLPlEaz…</a> <a href="https://drive.google.com/file/d/1fECgj6mjvJJ6usxpf-HpnlgmzAnMsGIH" target="_blank" class="chip gd">📁 GDrive: 1fECgj6mjvJJ…</a> <a href="https://drive.google.com/file/d/1PSxRpOxGa0SonMTHJRWQbWxcGzDeqCg6" target="_blank" class="chip gd">📁 GDrive: 1PSxRpOxGa0S…</a> <a href="https://drive.google.com/file/d/1gSaMWyZ0NLljwoaq0YpGzTSggMtTE9OG" target="_blank" class="chip gd">📁 GDrive: 1gSaMWyZ0NLl…</a> <a href="https://drive.google.com/file/d/1-ppiK0sU6wSo00UHFRUtHbz1XqwKUfeI" target="_blank" class="chip gd">📁 GDrive: 1-ppiK0sU6wS…</a> <a href="https://drive.google.com/file/d/1XnjSWA05p8L9SmVr7YOsiTCD5h5gJJgo" target="_blank" class="chip gd">📁 GDrive: 1XnjSWA05p8L…</a> <a href="https://drive.google.com/file/d/1m41BFPMbgYAfaBY8_4_JKvBwJ2hgZsiq" target="_blank" class="chip gd">📁 GDrive: 1m41BFPMbgYA…</a> <a href="https://drive.google.com/file/d/1k4a587Kwx8gfnU5Brg_x3e7Mb6v1doY8" target="_blank" class="chip gd">📁 GDrive: 1k4a587Kwx8g…</a> <a href="https://drive.google.com/file/d/1vredl4NePWJpgVXVkGhqxZKwztqLJS8_" target="_blank" class="chip gd">📁 GDrive: 1vredl4NePWJ…</a></td></tr>
+<tr>
+  <td>7</td>
+  <td style="">📅 План-график</td>
+  <td>0</td>
+  <td>✅ 6864 KB</td>
+  <td>16</td>
+  <td>✅ 3 KB</td>
+  <td>0</td>
+  <td>—</td>
+  <td>—</td>
+  <td>—</td>
+  <td>—</td>
+  <td>6864 KB</td>
+  <td>
+    <a href="../_pages/plan-grafik.html" target="_blank">SF</a>
+     · <a href="../_content/plan-grafik.html" target="_blank">PP</a>
+     · <a href="plan-grafik.html" target="_blank">Final</a>
+  </td>
+</tr>
+<tr>
+  <td>8</td>
+  <td style="">📓 Издательство</td>
+  <td>0</td>
+  <td>✅ 7563 KB</td>
+  <td>26</td>
+  <td>✅ 24 KB</td>
+  <td>0</td>
+  <td>—</td>
+  <td>—</td>
+  <td>—</td>
+  <td>—</td>
+  <td>7563 KB</td>
+  <td>
+    <a href="../_pages/izdatel-stvo.html" target="_blank">SF</a>
+     · <a href="../_content/izdatel-stvo.html" target="_blank">PP</a>
+     · <a href="izdatel-stvo.html" target="_blank">Final</a>
+  </td>
+</tr>
+<tr>
+  <td>9</td>
+  <td style="">🎓 Лекторий</td>
+  <td>0</td>
+  <td>✅ 6945 KB</td>
+  <td>16</td>
+  <td>✅ 10 KB</td>
+  <td><b>1</b></td>
+  <td>—</td>
+  <td>—</td>
+  <td>📁 1</td>
+  <td>—</td>
+  <td>6945 KB</td>
+  <td>
+    <a href="../_pages/lektoriy.html" target="_blank">SF</a>
+     · <a href="../_content/lektoriy.html" target="_blank">PP</a>
+     · <a href="lektoriy.html" target="_blank">Final</a>
+  </td>
+</tr><tr class="detail-row"><td></td><td colspan="12"><a href="https://drive.google.com/file/d/0B5zcQJxvqTNhOVBkb2dwWWt4a0NwMkNNRU93T0NwQVl1aENr" target="_blank" class="chip gd">📁 GDrive: 0B5zcQJxvqTN…</a></td></tr>
+<tr>
+  <td>10</td>
+  <td style="">🌍 Музей схем</td>
+  <td>0</td>
+  <td>✅ 7449 KB</td>
+  <td>20</td>
+  <td>✅ 10 KB</td>
+  <td>0</td>
+  <td>—</td>
+  <td>—</td>
+  <td>—</td>
+  <td>—</td>
+  <td>7449 KB</td>
+  <td>
+    <a href="../_pages/muzey-shem.html" target="_blank">SF</a>
+     · <a href="../_content/muzey-shem.html" target="_blank">PP</a>
+     · <a href="muzey-shem.html" target="_blank">Final</a>
+  </td>
+</tr>
+<tr>
+  <td>11</td>
+  <td style="">Состав группы</td>
+  <td>0</td>
+  <td>✅ 7128 KB</td>
+  <td>15</td>
+  <td>✅ 29 KB</td>
+  <td>0</td>
+  <td>—</td>
+  <td>—</td>
+  <td>—</td>
+  <td>—</td>
+  <td>7128 KB</td>
+  <td>
+    <a href="../_pages/sostav-gruppy.html" target="_blank">SF</a>
+     · <a href="../_content/sostav-gruppy.html" target="_blank">PP</a>
+     · <a href="sostav-gruppy.html" target="_blank">Final</a>
+  </td>
+</tr>
+<tr>
+  <td>12</td>
+  <td style="padding-left:40px">👨 Мрдуляш П.Б.</td>
+  <td>1</td>
+  <td>✅ 6836 KB</td>
+  <td>17</td>
+  <td>✅ 22 KB</td>
+  <td><b>12</b></td>
+  <td>🎬 8</td>
+  <td>—</td>
+  <td>📁 4</td>
+  <td>✅ 8</td>
+  <td>6840 KB</td>
+  <td>
+    <a href="../_pages/mrdulys-p-b.html" target="_blank">SF</a>
+     · <a href="../_content/mrdulys-p-b.html" target="_blank">PP</a>
+     · <a href="mrdulys-p-b.html" target="_blank">Final</a>
+  </td>
+</tr><tr class="detail-row"><td></td><td colspan="12"><a href="https://www.youtube.com/watch?v=wHheHqxlEDs" target="_blank" class="chip ok">▶ YT: wHheHqxlEDs</a> <a href="https://www.youtube.com/watch?v=NC36RI85VGc" target="_blank" class="chip ok">▶ YT: NC36RI85VGc</a> <a href="https://www.youtube.com/watch?v=y36BV3wftdE" target="_blank" class="chip ok">▶ YT: y36BV3wftdE</a> <a href="https://www.youtube.com/watch?v=oHgVXAqBT-U" target="_blank" class="chip ok">▶ YT: oHgVXAqBT-U</a> <a href="https://www.youtube.com/watch?v=1EYAka6y3qA" target="_blank" class="chip ok">▶ YT: 1EYAka6y3qA</a> <a href="https://www.youtube.com/watch?v=Jfnytg68G0E" target="_blank" class="chip ok">▶ YT: Jfnytg68G0E</a> <a href="https://www.youtube.com/watch?v=WgBHbo0NBsE" target="_blank" class="chip ok">▶ YT: WgBHbo0NBsE</a> <a href="https://www.youtube.com/watch?v=i2q4GuFyG9o" target="_blank" class="chip ok">▶ YT: i2q4GuFyG9o</a><a href="https://drive.google.com/file/d/1zPKdFjzUITkgMmYdVXcShnXdHpSeUWWQ" target="_blank" class="chip gd">📁 GDrive: 1zPKdFjzUITk…</a> <a href="https://drive.google.com/file/d/1D2guXrpEPF4DBQhJnaJMrZgEsVgxLkTF" target="_blank" class="chip gd">📁 GDrive: 1D2guXrpEPF4…</a> <a href="https://drive.google.com/file/d/1F7VUpNR-4JhPUGaNTjjQW8KZObAG1tR-" target="_blank" class="chip gd">📁 GDrive: 1F7VUpNR-4Jh…</a> <a href="https://drive.google.com/file/d/1l4L6Oz8q5bEh8rk5yWb0vL4LOkKyIw2d" target="_blank" class="chip gd">📁 GDrive: 1l4L6Oz8q5bE…</a></td></tr>
+<tr>
+  <td>13</td>
+  <td style="padding-left:40px">🤓 Осовский М.Е.</td>
+  <td>1</td>
+  <td>✅ 7453 KB</td>
+  <td>17</td>
+  <td>✅ 21 KB</td>
+  <td><b>1</b></td>
+  <td>—</td>
+  <td>—</td>
+  <td>📁 1</td>
+  <td>—</td>
+  <td>7454 KB</td>
+  <td>
+    <a href="../_pages/osovskiy-m-e.html" target="_blank">SF</a>
+     · <a href="../_content/osovskiy-m-e.html" target="_blank">PP</a>
+     · <a href="osovskiy-m-e.html" target="_blank">Final</a>
+  </td>
+</tr><tr class="detail-row"><td></td><td colspan="12"><a href="https://drive.google.com/file/d/0Bxfe9DxB15ciV2pBYVRTT21GbmM" target="_blank" class="chip gd">📁 GDrive: 0Bxfe9DxB15c…</a></td></tr>
+<tr>
+  <td>14</td>
+  <td style="padding-left:60px">Рамки и форма организации</td>
+  <td>2</td>
+  <td>✅ 7481 KB</td>
+  <td>15</td>
+  <td>✅ 25 KB</td>
+  <td>0</td>
+  <td>—</td>
+  <td>—</td>
+  <td>—</td>
+  <td>—</td>
+  <td>7481 KB</td>
+  <td>
+    <a href="../_pages/ramki-i-forma-organizatii.html" target="_blank">SF</a>
+     · <a href="../_content/ramki-i-forma-organizatii.html" target="_blank">PP</a>
+     · <a href="ramki-i-forma-organizatii.html" target="_blank">Final</a>
+  </td>
+</tr>
+<tr>
+  <td>15</td>
+  <td style="padding-left:60px">Главная технология мышления - это его “коллективная сборка”?</td>
+  <td>2</td>
+  <td>✅ 6666 KB</td>
+  <td>15</td>
+  <td>✅ 9 KB</td>
+  <td>0</td>
+  <td>—</td>
+  <td>—</td>
+  <td>—</td>
+  <td>—</td>
+  <td>6666 KB</td>
+  <td>
+    <a href="../_pages/glavnay-tehnologiy-mysleniy-eto-ego-kollektivnay-s.html" target="_blank">SF</a>
+     · <a href="../_content/glavnay-tehnologiy-mysleniy-eto-ego-kollektivnay-s.html" target="_blank">PP</a>
+     · <a href="glavnay-tehnologiy-mysleniy-eto-ego-kollektivnay-s.html" target="_blank">Final</a>
+  </td>
+</tr>
+<tr>
+  <td>16</td>
+  <td style="padding-left:60px">Описание к майндмэп</td>
+  <td>2</td>
+  <td>✅ 7141 KB</td>
+  <td>15</td>
+  <td>✅ 18 KB</td>
+  <td><b>1</b></td>
+  <td>—</td>
+  <td>—</td>
+  <td>📁 1</td>
+  <td>—</td>
+  <td>7142 KB</td>
+  <td>
+    <a href="../_pages/opisanie-k-mayndmep.html" target="_blank">SF</a>
+     · <a href="../_content/opisanie-k-mayndmep.html" target="_blank">PP</a>
+     · <a href="opisanie-k-mayndmep.html" target="_blank">Final</a>
+  </td>
+</tr><tr class="detail-row"><td></td><td colspan="12"><a href="https://drive.google.com/file/d/0Bxfe9DxB15cidHJPb0MyZzAtY28" target="_blank" class="chip gd">📁 GDrive: 0Bxfe9DxB15c…</a></td></tr>
+<tr>
+  <td>17</td>
+  <td style="padding-left:60px">📺 YouTube</td>
+  <td>2</td>
+  <td>✅ 6909 KB</td>
+  <td>15</td>
+  <td>✅ 54 KB</td>
+  <td><b>35</b></td>
+  <td>🎬 35</td>
+  <td>—</td>
+  <td>—</td>
+  <td>✅ 28</td>
+  <td>6926 KB</td>
+  <td>
+    <a href="../_pages/youtube.html" target="_blank">SF</a>
+     · <a href="../_content/youtube.html" target="_blank">PP</a>
+     · <a href="youtube.html" target="_blank">Final</a>
+  </td>
+</tr><tr class="detail-row"><td></td><td colspan="12"><a href="https://www.youtube.com/watch?v=xPdnNt9-hnA" target="_blank" class="chip ok">▶ YT: xPdnNt9-hnA</a> <a href="https://www.youtube.com/watch?v=fP-EfFocsjE" target="_blank" class="chip ok">▶ YT: fP-EfFocsjE</a> <a href="https://www.youtube.com/watch?v=TjgEy6DusLQ" target="_blank" class="chip ok">▶ YT: TjgEy6DusLQ</a> <a href="https://www.youtube.com/watch?v=okzURIz6uV0" target="_blank" class="chip ok">▶ YT: okzURIz6uV0</a> <a href="https://www.youtube.com/watch?v=qcx3JPoqgsg" target="_blank" class="chip ok">▶ YT: qcx3JPoqgsg</a> <a href="https://www.youtube.com/watch?v=yuZ_2aWCYt8" target="_blank" class="chip ok">▶ YT: yuZ_2aWCYt8</a> <a href="https://www.youtube.com/watch?v=VF8b0kdCD2E" target="_blank" class="chip no">▶ YT: VF8b0kdCD2E</a> <a href="https://www.youtube.com/watch?v=eUvDVnR8XCg" target="_blank" class="chip ok">▶ YT: eUvDVnR8XCg</a> <a href="https://www.youtube.com/watch?v=T6RMvbnMdVo" target="_blank" class="chip ok">▶ YT: T6RMvbnMdVo</a> <a href="https://www.youtube.com/watch?v=mvWV3yK_260" target="_blank" class="chip ok">▶ YT: mvWV3yK_260</a> <a href="https://www.youtube.com/watch?v=VIZ5dubApbc" target="_blank" class="chip ok">▶ YT: VIZ5dubApbc</a> <a href="https://www.youtube.com/watch?v=videoseries" target="_blank" class="chip no">▶ YT: videoseries</a> <a href="https://www.youtube.com/watch?v=U_vi6q3XoeY" target="_blank" class="chip ok">▶ YT: U_vi6q3XoeY</a> <a href="https://www.youtube.com/watch?v=F6_IIDjfu-0" target="_blank" class="chip ok">▶ YT: F6_IIDjfu-0</a> <a href="https://www.youtube.com/watch?v=4rhrbXUfP-E" target="_blank" class="chip ok">▶ YT: 4rhrbXUfP-E</a> <a href="https://www.youtube.com/watch?v=NvAMiUJl7bo" target="_blank" class="chip ok">▶ YT: NvAMiUJl7bo</a> <a href="https://www.youtube.com/watch?v=KB616FTYg_s" target="_blank" class="chip no">▶ YT: KB616FTYg_s</a> <a href="https://www.youtube.com/watch?v=xyyg1uStsTU" target="_blank" class="chip no">▶ YT: xyyg1uStsTU</a> <a href="https://www.youtube.com/watch?v=7mlwjLYdUG0" target="_blank" class="chip no">▶ YT: 7mlwjLYdUG0</a> <a href="https://www.youtube.com/watch?v=-CYavKv_eMs" target="_blank" class="chip no">▶ YT: -CYavKv_eMs</a> <a href="https://www.youtube.com/watch?v=fWfeoHiykMg" target="_blank" class="chip ok">▶ YT: fWfeoHiykMg</a> <a href="https://www.youtube.com/watch?v=AmxyKNvjXJs" target="_blank" class="chip ok">▶ YT: AmxyKNvjXJs</a> <a href="https://www.youtube.com/watch?v=ytNtcPwqAMQ" target="_blank" class="chip ok">▶ YT: ytNtcPwqAMQ</a> <a href="https://www.youtube.com/watch?v=f82WHAGy9FE" target="_blank" class="chip ok">▶ YT: f82WHAGy9FE</a> <a href="https://www.youtube.com/watch?v=9NK4YuMoy9g" target="_blank" class="chip ok">▶ YT: 9NK4YuMoy9g</a> <a href="https://www.youtube.com/watch?v=FlI5wipTFfY" target="_blank" class="chip no">▶ YT: FlI5wipTFfY</a> <a href="https://www.youtube.com/watch?v=nfxor7t26M8" target="_blank" class="chip ok">▶ YT: nfxor7t26M8</a> <a href="https://www.youtube.com/watch?v=RRxFyRILPvQ" target="_blank" class="chip ok">▶ YT: RRxFyRILPvQ</a> <a href="https://www.youtube.com/watch?v=mLSrmPkTfRk" target="_blank" class="chip ok">▶ YT: mLSrmPkTfRk</a> <a href="https://www.youtube.com/watch?v=a93v5_1zxys" target="_blank" class="chip ok">▶ YT: a93v5_1zxys</a> <a href="https://www.youtube.com/watch?v=b6vXf2qwd-c" target="_blank" class="chip ok">▶ YT: b6vXf2qwd-c</a> <a href="https://www.youtube.com/watch?v=7tq37zZ5t1U" target="_blank" class="chip ok">▶ YT: 7tq37zZ5t1U</a> <a href="https://www.youtube.com/watch?v=HyLhOw2o5xo" target="_blank" class="chip ok">▶ YT: HyLhOw2o5xo</a> <a href="https://www.youtube.com/watch?v=dczFsG5BUWk" target="_blank" class="chip ok">▶ YT: dczFsG5BUWk</a> <a href="https://www.youtube.com/watch?v=hyEqbj-I8xk" target="_blank" class="chip ok">▶ YT: hyEqbj-I8xk</a></td></tr>
+<tr>
+  <td>18</td>
+  <td style="padding-left:60px">Графические методы мышления</td>
+  <td>2</td>
+  <td>❌ 0 KB</td>
+  <td>0</td>
+  <td>✅ 12 KB</td>
+  <td><b>6</b></td>
+  <td>🎬 6</td>
+  <td>—</td>
+  <td>—</td>
+  <td>✅ 1</td>
+  <td>11 KB</td>
+  <td>
+    —
+     · <a href="../_content/graficeskie-metody-mysleniy.html" target="_blank">PP</a>
+     · <a href="graficeskie-metody-mysleniy.html" target="_blank">Final</a>
+  </td>
+</tr><tr class="detail-row"><td></td><td colspan="12"><a href="https://www.youtube.com/watch?v=ktOsRJBviDg" target="_blank" class="chip ok">▶ YT: ktOsRJBviDg</a> <a href="https://www.youtube.com/watch?v=NOPfqREvvTY" target="_blank" class="chip no">▶ YT: NOPfqREvvTY</a> <a href="https://www.youtube.com/watch?v=RTzBgpUUbCA" target="_blank" class="chip no">▶ YT: RTzBgpUUbCA</a> <a href="https://www.youtube.com/watch?v=DPODAGCxfpw" target="_blank" class="chip no">▶ YT: DPODAGCxfpw</a> <a href="https://www.youtube.com/watch?v=LfF0ifwI490" target="_blank" class="chip no">▶ YT: LfF0ifwI490</a> <a href="https://www.youtube.com/watch?v=xWfQc6jkH2Q" target="_blank" class="chip no">▶ YT: xWfQc6jkH2Q</a></td></tr>
+<tr>
+  <td>19</td>
+  <td style="padding-left:60px">Лекции</td>
+  <td>2</td>
+  <td>✅ 7623 KB</td>
+  <td>33</td>
+  <td>✅ 55 KB</td>
+  <td>0</td>
+  <td>—</td>
+  <td>—</td>
+  <td>—</td>
+  <td>—</td>
+  <td>7623 KB</td>
+  <td>
+    <a href="../_pages/lektii.html" target="_blank">SF</a>
+     · <a href="../_content/lektii.html" target="_blank">PP</a>
+     · <a href="lektii.html" target="_blank">Final</a>
+  </td>
+</tr>
+<tr>
+  <td>20</td>
+  <td style="padding-left:40px">👸 Горбань А.А.</td>
+  <td>1</td>
+  <td>✅ 6678 KB</td>
+  <td>15</td>
+  <td>✅ 21 KB</td>
+  <td><b>12</b></td>
+  <td>🎬 12</td>
+  <td>—</td>
+  <td>—</td>
+  <td>✅ 12</td>
+  <td>6684 KB</td>
+  <td>
+    <a href="../_pages/gorban-a-a.html" target="_blank">SF</a>
+     · <a href="../_content/gorban-a-a.html" target="_blank">PP</a>
+     · <a href="gorban-a-a.html" target="_blank">Final</a>
+  </td>
+</tr><tr class="detail-row"><td></td><td colspan="12"><a href="https://www.youtube.com/watch?v=jklhy5KWmHc" target="_blank" class="chip ok">▶ YT: jklhy5KWmHc</a> <a href="https://www.youtube.com/watch?v=gZJyTihFflI" target="_blank" class="chip ok">▶ YT: gZJyTihFflI</a> <a href="https://www.youtube.com/watch?v=E7CzRX9rm-0" target="_blank" class="chip ok">▶ YT: E7CzRX9rm-0</a> <a href="https://www.youtube.com/watch?v=SD0EU1KyhT4" target="_blank" class="chip ok">▶ YT: SD0EU1KyhT4</a> <a href="https://www.youtube.com/watch?v=x4YPrmF_t-Y" target="_blank" class="chip ok">▶ YT: x4YPrmF_t-Y</a> <a href="https://www.youtube.com/watch?v=cHsvGzJMTdM" target="_blank" class="chip ok">▶ YT: cHsvGzJMTdM</a> <a href="https://www.youtube.com/watch?v=T7D-pt-PjJ4" target="_blank" class="chip ok">▶ YT: T7D-pt-PjJ4</a> <a href="https://www.youtube.com/watch?v=bmF0wvUSw-4" target="_blank" class="chip ok">▶ YT: bmF0wvUSw-4</a> <a href="https://www.youtube.com/watch?v=O2ZKef2Xfs0" target="_blank" class="chip ok">▶ YT: O2ZKef2Xfs0</a> <a href="https://www.youtube.com/watch?v=hP85WGtkv98" target="_blank" class="chip ok">▶ YT: hP85WGtkv98</a> <a href="https://www.youtube.com/watch?v=RJUO2Yy13Ms" target="_blank" class="chip ok">▶ YT: RJUO2Yy13Ms</a> <a href="https://www.youtube.com/watch?v=JkWUoOWTHfM" target="_blank" class="chip ok">▶ YT: JkWUoOWTHfM</a></td></tr>
+<tr>
+  <td>21</td>
+  <td style="padding-left:40px">🏃 Гайдамака К.И.</td>
+  <td>1</td>
+  <td>✅ 6789 KB</td>
+  <td>16</td>
+  <td>✅ 3 KB</td>
+  <td>0</td>
+  <td>—</td>
+  <td>—</td>
+  <td>—</td>
+  <td>—</td>
+  <td>6789 KB</td>
+  <td>
+    <a href="../_pages/gaydamaka-k-i.html" target="_blank">SF</a>
+     · <a href="../_content/gaydamaka-k-i.html" target="_blank">PP</a>
+     · <a href="gaydamaka-k-i.html" target="_blank">Final</a>
+  </td>
+</tr>
+<tr>
+  <td>22</td>
+  <td style="padding-left:40px">🕵️ Злотников И.В.</td>
+  <td>1</td>
+  <td>✅ 6949 KB</td>
+  <td>17</td>
+  <td>✅ 25 KB</td>
+  <td><b>11</b></td>
+  <td>🎬 9</td>
+  <td>—</td>
+  <td>📁 2</td>
+  <td>✅ 9</td>
+  <td>6953 KB</td>
+  <td>
+    <a href="../_pages/zlotnikov-i-v.html" target="_blank">SF</a>
+     · <a href="../_content/zlotnikov-i-v.html" target="_blank">PP</a>
+     · <a href="zlotnikov-i-v.html" target="_blank">Final</a>
+  </td>
+</tr><tr class="detail-row"><td></td><td colspan="12"><a href="https://www.youtube.com/watch?v=JfVW5BcCDvc" target="_blank" class="chip ok">▶ YT: JfVW5BcCDvc</a> <a href="https://www.youtube.com/watch?v=GFjzlB3xDcQ" target="_blank" class="chip ok">▶ YT: GFjzlB3xDcQ</a> <a href="https://www.youtube.com/watch?v=oY5502f4UBg" target="_blank" class="chip ok">▶ YT: oY5502f4UBg</a> <a href="https://www.youtube.com/watch?v=qD0Akdsrt_4" target="_blank" class="chip ok">▶ YT: qD0Akdsrt_4</a> <a href="https://www.youtube.com/watch?v=Xjg8491qKnY" target="_blank" class="chip ok">▶ YT: Xjg8491qKnY</a> <a href="https://www.youtube.com/watch?v=cMpI-3Uhj6Q" target="_blank" class="chip ok">▶ YT: cMpI-3Uhj6Q</a> <a href="https://www.youtube.com/watch?v=L2aaf3mT1L0" target="_blank" class="chip ok">▶ YT: L2aaf3mT1L0</a> <a href="https://www.youtube.com/watch?v=AcadiZMBdkI" target="_blank" class="chip ok">▶ YT: AcadiZMBdkI</a> <a href="https://www.youtube.com/watch?v=y3swq1kafqI" target="_blank" class="chip ok">▶ YT: y3swq1kafqI</a><a href="https://drive.google.com/file/d/1ihYgo8fh-Tmd_PlV7Q6E_VjV17Mfwqws" target="_blank" class="chip gd">📁 GDrive: 1ihYgo8fh-Tm…</a> <a href="https://drive.google.com/file/d/1WdoRzX-QtKwJ6jbJ0-R-86ClC2Xechsu" target="_blank" class="chip gd">📁 GDrive: 1WdoRzX-QtKw…</a></td></tr>
+<tr>
+  <td>23</td>
+  <td style="padding-left:40px">💂 Корякин С.В.</td>
+  <td>1</td>
+  <td>✅ 6568 KB</td>
+  <td>15</td>
+  <td>✅ 12 KB</td>
+  <td><b>9</b></td>
+  <td>🎬 9</td>
+  <td>—</td>
+  <td>—</td>
+  <td>✅ 9</td>
+  <td>6573 KB</td>
+  <td>
+    <a href="../_pages/korykin-s-v.html" target="_blank">SF</a>
+     · <a href="../_content/korykin-s-v.html" target="_blank">PP</a>
+     · <a href="korykin-s-v.html" target="_blank">Final</a>
+  </td>
+</tr><tr class="detail-row"><td></td><td colspan="12"><a href="https://www.youtube.com/watch?v=Lg5u8nS_Gq8" target="_blank" class="chip ok">▶ YT: Lg5u8nS_Gq8</a> <a href="https://www.youtube.com/watch?v=kgXoOKSbFKg" target="_blank" class="chip ok">▶ YT: kgXoOKSbFKg</a> <a href="https://www.youtube.com/watch?v=GbqxdqLHKpw" target="_blank" class="chip ok">▶ YT: GbqxdqLHKpw</a> <a href="https://www.youtube.com/watch?v=LSxNyIbGLB0" target="_blank" class="chip ok">▶ YT: LSxNyIbGLB0</a> <a href="https://www.youtube.com/watch?v=tUe6VzhJDbo" target="_blank" class="chip ok">▶ YT: tUe6VzhJDbo</a> <a href="https://www.youtube.com/watch?v=eoOgMUltdsg" target="_blank" class="chip ok">▶ YT: eoOgMUltdsg</a> <a href="https://www.youtube.com/watch?v=nMbiRw2nSRI" target="_blank" class="chip ok">▶ YT: nMbiRw2nSRI</a> <a href="https://www.youtube.com/watch?v=UfOQzNWMBwQ" target="_blank" class="chip ok">▶ YT: UfOQzNWMBwQ</a> <a href="https://www.youtube.com/watch?v=ur8NJnce628" target="_blank" class="chip ok">▶ YT: ur8NJnce628</a></td></tr>
+<tr>
+  <td>24</td>
+  <td style="padding-left:40px">👨 Лазарев А.М.</td>
+  <td>1</td>
+  <td>✅ 10922 KB</td>
+  <td>25</td>
+  <td>✅ 9 KB</td>
+  <td>0</td>
+  <td>—</td>
+  <td>—</td>
+  <td>—</td>
+  <td>—</td>
+  <td>10922 KB</td>
+  <td>
+    <a href="../_pages/lazarev-a-m.html" target="_blank">SF</a>
+     · <a href="../_content/lazarev-a-m.html" target="_blank">PP</a>
+     · <a href="lazarev-a-m.html" target="_blank">Final</a>
+  </td>
+</tr>
+<tr>
+  <td>25</td>
+  <td style="padding-left:40px">👷 Пинаев Д.А.</td>
+  <td>1</td>
+  <td>✅ 6882 KB</td>
+  <td>16</td>
+  <td>✅ 4 KB</td>
+  <td>0</td>
+  <td>—</td>
+  <td>—</td>
+  <td>—</td>
+  <td>—</td>
+  <td>6882 KB</td>
+  <td>
+    <a href="../_pages/pinaev-d-a.html" target="_blank">SF</a>
+     · <a href="../_content/pinaev-d-a.html" target="_blank">PP</a>
+     · <a href="pinaev-d-a.html" target="_blank">Final</a>
+  </td>
+</tr>
+<tr>
+  <td>26</td>
+  <td style="padding-left:40px">😉 Сизых М.В.</td>
+  <td>1</td>
+  <td>✅ 6732 KB</td>
+  <td>16</td>
+  <td>✅ 3 KB</td>
+  <td>0</td>
+  <td>—</td>
+  <td>—</td>
+  <td>—</td>
+  <td>—</td>
+  <td>6732 KB</td>
+  <td>
+    <a href="../_pages/sizyh-m-v.html" target="_blank">SF</a>
+     · <a href="../_content/sizyh-m-v.html" target="_blank">PP</a>
+     · <a href="sizyh-m-v.html" target="_blank">Final</a>
+  </td>
+</tr>
+<tr>
+  <td>27</td>
+  <td style="padding-left:40px">👨 Сокольников А.А.</td>
+  <td>1</td>
+  <td>✅ 7601 KB</td>
+  <td>16</td>
+  <td>✅ 5 KB</td>
+  <td><b>1</b></td>
+  <td>—</td>
+  <td>—</td>
+  <td>📁 1</td>
+  <td>—</td>
+  <td>7602 KB</td>
+  <td>
+    <a href="../_pages/sokol-nikov-a-a.html" target="_blank">SF</a>
+     · <a href="../_content/sokol-nikov-a-a.html" target="_blank">PP</a>
+     · <a href="sokol-nikov-a-a.html" target="_blank">Final</a>
+  </td>
+</tr><tr class="detail-row"><td></td><td colspan="12"><a href="https://drive.google.com/file/d/0BzejOxhk0v-NVUpmamV4WUtZUzA" target="_blank" class="chip gd">📁 GDrive: 0BzejOxhk0v-…</a></td></tr>
+<tr>
+  <td>28</td>
+  <td style="padding-left:40px">💂 Цепков М.А.</td>
+  <td>1</td>
+  <td>✅ 7107 KB</td>
+  <td>16</td>
+  <td>✅ 4 KB</td>
+  <td>0</td>
+  <td>—</td>
+  <td>—</td>
+  <td>—</td>
+  <td>—</td>
+  <td>7107 KB</td>
+  <td>
+    <a href="../_pages/tepkov-m-a.html" target="_blank">SF</a>
+     · <a href="../_content/tepkov-m-a.html" target="_blank">PP</a>
+     · <a href="tepkov-m-a.html" target="_blank">Final</a>
+  </td>
+</tr>
+<tr>
+  <td>29</td>
+  <td style="padding-left:40px">👨 Мокроусова Ю.В.</td>
+  <td>1</td>
+  <td>✅ 6670 KB</td>
+  <td>16</td>
+  <td>✅ 5 KB</td>
+  <td><b>2</b></td>
+  <td>🎬 2</td>
+  <td>—</td>
+  <td>—</td>
+  <td>✅ 2</td>
+  <td>6671 KB</td>
+  <td>
+    <a href="../_pages/mokrousova-y-v.html" target="_blank">SF</a>
+     · <a href="../_content/mokrousova-y-v.html" target="_blank">PP</a>
+     · <a href="mokrousova-y-v.html" target="_blank">Final</a>
+  </td>
+</tr><tr class="detail-row"><td></td><td colspan="12"><a href="https://www.youtube.com/watch?v=k8M6QjdFmQs" target="_blank" class="chip ok">▶ YT: k8M6QjdFmQs</a> <a href="https://www.youtube.com/watch?v=2iUo7vFaUYI" target="_blank" class="chip ok">▶ YT: 2iUo7vFaUYI</a></td></tr>
+<tr>
+  <td>30</td>
+  <td style="">📚 Библиотека</td>
+  <td>0</td>
+  <td>✅ 7221 KB</td>
+  <td>23</td>
+  <td>✅ 24 KB</td>
+  <td><b>1</b></td>
+  <td>—</td>
+  <td>—</td>
+  <td>📁 1</td>
+  <td>—</td>
+  <td>7221 KB</td>
+  <td>
+    <a href="../_pages/biblioteka.html" target="_blank">SF</a>
+     · <a href="../_content/biblioteka.html" target="_blank">PP</a>
+     · <a href="biblioteka.html" target="_blank">Final</a>
+  </td>
+</tr><tr class="detail-row"><td></td><td colspan="12"><a href="https://drive.google.com/file/d/0Bxfe9DxB15cibHd0UTBUeFMxM2c" target="_blank" class="chip gd">📁 GDrive: 0Bxfe9DxB15c…</a></td></tr>
+<tr>
+  <td>31</td>
+  <td style="">📖 Литература</td>
+  <td>0</td>
+  <td>✅ 6926 KB</td>
+  <td>15</td>
+  <td>✅ 80 KB</td>
+  <td><b>6</b></td>
+  <td>🎬 6</td>
+  <td>—</td>
+  <td>—</td>
+  <td>✅ 6</td>
+  <td>6929 KB</td>
+  <td>
+    <a href="../_pages/literatura.html" target="_blank">SF</a>
+     · <a href="../_content/literatura.html" target="_blank">PP</a>
+     · <a href="literatura.html" target="_blank">Final</a>
+  </td>
+</tr><tr class="detail-row"><td></td><td colspan="12"><a href="https://www.youtube.com/watch?v=m2NzatThsuk" target="_blank" class="chip ok">▶ YT: m2NzatThsuk</a> <a href="https://www.youtube.com/watch?v=PbiBX7gNxKk" target="_blank" class="chip ok">▶ YT: PbiBX7gNxKk</a> <a href="https://www.youtube.com/watch?v=cSiPYLsdi1s" target="_blank" class="chip ok">▶ YT: cSiPYLsdi1s</a> <a href="https://www.youtube.com/watch?v=vrylVaVrTJw" target="_blank" class="chip ok">▶ YT: vrylVaVrTJw</a> <a href="https://www.youtube.com/watch?v=FNrISEydvek" target="_blank" class="chip ok">▶ YT: FNrISEydvek</a> <a href="https://www.youtube.com/watch?v=ceBRUjqwDUI" target="_blank" class="chip ok">▶ YT: ceBRUjqwDUI</a></td></tr>
+<tr>
+  <td>32</td>
+  <td style="">💼 Вакансии</td>
+  <td>0</td>
+  <td>✅ 6960 KB</td>
+  <td>15</td>
+  <td>✅ 10 KB</td>
+  <td>0</td>
+  <td>—</td>
+  <td>—</td>
+  <td>—</td>
+  <td>—</td>
+  <td>6960 KB</td>
+  <td>
+    <a href="../_pages/vakansii.html" target="_blank">SF</a>
+     · <a href="../_content/vakansii.html" target="_blank">PP</a>
+     · <a href="vakansii.html" target="_blank">Final</a>
+  </td>
+</tr>
+<tr>
+  <td>33</td>
+  <td style="">📂 Официальные материалы</td>
+  <td>0</td>
+  <td>✅ 6859 KB</td>
+  <td>15</td>
+  <td>✅ 7 KB</td>
+  <td>0</td>
+  <td>—</td>
+  <td>—</td>
+  <td>—</td>
+  <td>—</td>
+  <td>6859 KB</td>
+  <td>
+    <a href="../_pages/ofitial-nye-materialy.html" target="_blank">SF</a>
+     · <a href="../_content/ofitial-nye-materialy.html" target="_blank">PP</a>
+     · <a href="ofitial-nye-materialy.html" target="_blank">Final</a>
+  </td>
+</tr>
+<tr>
+  <td>34</td>
+  <td style="">✍️ 2014-2019</td>
+  <td>0</td>
+  <td>✅ 6557 KB</td>
+  <td>15</td>
+  <td>✅ 1 KB</td>
+  <td>0</td>
+  <td>—</td>
+  <td>—</td>
+  <td>—</td>
+  <td>—</td>
+  <td>6557 KB</td>
+  <td>
+    <a href="../_pages/2014-2019.html" target="_blank">SF</a>
+     · <a href="../_content/2014-2019.html" target="_blank">PP</a>
+     · <a href="2014-2019.html" target="_blank">Final</a>
+  </td>
+</tr>
+</tbody>
+</table>
+
+<div class="legend">
+  SF = SingleFile HTML · PP = Puppeteer content · Embeds = total embedded videos/files<br>
+  YouTube/Vimeo/GDrive = iframe sources found in PP · Thumbs = downloaded thumbnails
+</div>
+</body>
+</html>
